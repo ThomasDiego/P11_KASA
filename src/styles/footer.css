@@ -1,0 +1,13 @@
+.footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 0px 50px 0px;
+  gap: 30px;
+  font-size: 24px;
+}
+.footerLogo {
+  width: 122px;
+}

@@ -1,0 +1,20 @@
+.notFound {
+  color: #ff6060;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.notFoundTitle {
+  font-size: 288px;
+  font-weight: 700;
+}
+.notFoundSubTitle {
+  font-size: 36px;
+}
+.notFoundButton {
+  display: flex;
+  justify-content: center;
+  color: #ff6060;
+  text-decoration: underline;
+  margin: 180px 0 100px 0;
+}

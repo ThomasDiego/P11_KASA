@@ -1,0 +1,10 @@
+.galleryCard {
+  aspect-ratio: 1 / 1;
+  border-radius: 10px;
+  display: flex;
+  align-items: flex-end;
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+  background-size: cover;
+}

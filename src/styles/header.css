@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  height: 68px;
+  margin-top: 40px;
+}
+.headerRight {
+  display: flex;
+  gap: 57px;
+  align-items: center;
+}
+.headerRight > * {
+  font-size: 24px;
+  color: #ff6060;
+  text-decoration: none;
+}
+.logo {
+  height: 68px;
+}
