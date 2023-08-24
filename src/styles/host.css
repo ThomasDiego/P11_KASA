@@ -1,0 +1,22 @@
+.hostDetails {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+.hostName {
+  color: #ff6060;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin-right: 10px;
+  text-align: right;
+}
+.hostPhoto {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.hostPhotoImg {
+  width: 100%;
+}

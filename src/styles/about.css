@@ -1,0 +1,8 @@
+.centerDropdown {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0px;
+}

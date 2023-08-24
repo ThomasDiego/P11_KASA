@@ -1,0 +1,29 @@
+.tags {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+.roomDetails {
+  display: flex;
+  justify-content: space-between;
+}
+.roomTitle {
+  margin: 0px;
+  color: #ff6060;
+  font-weight: 100;
+}
+.roomLocation {
+  color: #ff6060;
+}
+.roomDetailsRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.roomDropdown {
+  margin: 20px 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
