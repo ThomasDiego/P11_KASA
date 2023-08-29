@@ -17,36 +17,41 @@ function Carrousel({ pictures }) {
     }
   }
   useEffect(() => {
-    console.log(pictures?.[0]);
     setPictureCount(pictures?.length);
   }, [pictures]);
   return (
     <>
       {pictures?.map((picture, index) => (
-        <>
+        <div key={index}>
           {currentPicture === index && (
             <div
               className="carrousel"
               style={{ backgroundImage: `url(${picture})` }}
             >
               <div className="carrouselArrows">
-                <div
-                  className="carrouselArrowLeft"
-                  onClick={() => nextPicture(-1)}
-                  style={{ backgroundImage: `url(${ArrowLeft})` }}
-                ></div>
-                <div
-                  className="carrouselArrowRight"
-                  onClick={() => nextPicture(1)}
-                  style={{ backgroundImage: `url(${ArrowRight})` }}
-                ></div>
+                {pictures.length > 1 && (
+                  <div
+                    className="carrouselArrowLeft"
+                    onClick={() => nextPicture(-1)}
+                    style={{ backgroundImage: `url(${ArrowLeft})` }}
+                  ></div>
+                )}
+                {pictures.length > 1 && (
+                  <div
+                    className="carrouselArrowRight"
+                    onClick={() => nextPicture(1)}
+                    style={{ backgroundImage: `url(${ArrowRight})` }}
+                  ></div>
+                )}
               </div>
-              <div className="carrouselPictureCount">
-                {currentPicture + 1}/{pictureCount}
-              </div>
+              {pictures.length > 1 && (
+                <div className="carrouselPictureCount">
+                  {currentPicture + 1}/{pictureCount}
+                </div>
+              )}
             </div>
           )}
-        </>
+        </div>
       ))}
     </>
   );
