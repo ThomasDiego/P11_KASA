@@ -10,10 +10,16 @@ function Header() {
         </NavLink>
       </div>
       <div className="headerRight">
-        <NavLink to="/" activeclassname="">
+        <NavLink
+          to="/"
+          className={({ isActive }) => (isActive ? "active" : "")}
+        >
           Accueil
         </NavLink>
-        <NavLink to="/about" activeclassname="">
+        <NavLink
+          to="/about"
+          className={({ isActive }) => (isActive ? "active" : "")}
+        >
           A propos
         </NavLink>
       </div>
