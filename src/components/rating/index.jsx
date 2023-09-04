@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "./rating.css";
+import "./style.css";
 import RedStar from "../../assets/red_star.png";
 import GreyStar from "../../assets/grey_star.png";
 

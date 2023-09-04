@@ -1,7 +1,7 @@
-import Banner from "../../components/banner/banner";
+import Banner from "../../components/banner";
 import BannerImage from "../../assets/home_bg.png";
-import "./accueil.css";
-import GalleryCard from "../../components/gallerycard/gallerycard";
+import "./style.css";
+import GalleryCard from "../../components/gallerycard";
 import { useEffect, useState } from "react";
 function Accueil() {
   const [data, setData] = useState([]);

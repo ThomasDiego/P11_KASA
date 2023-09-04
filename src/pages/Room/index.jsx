@@ -1,13 +1,13 @@
 import { useParams } from "react-router-dom";
 import React from "react";
 import { useEffect, useState } from "react";
-import Tag from "../../components/tag/tag";
-import Host from "../../components/host/host";
-import "./room.css";
-import Rating from "../../components/rating/rating";
-import Carrousel from "../../components/carrousel/carrousel";
-import Dropdown from "../../components/dropdown/dropdown";
-import NotFound from "../../components/404/404";
+import Tag from "../../components/tag";
+import Host from "../../components/host";
+import "./style.css";
+import Rating from "../../components/rating";
+import Carrousel from "../../components/carrousel";
+import Dropdown from "../../components/dropdown";
+import NotFound from "../../components/404";
 function Rooms() {
   const { id } = useParams();
   let [roomInfos, setRoomInfos] = useState([]);

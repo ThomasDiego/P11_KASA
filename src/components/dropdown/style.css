@@ -38,3 +38,12 @@
 .dropdownTitleIcon.reverse {
   transform: rotate(180deg);
 }
+
+@media screen and (max-width: 768px) {
+  .dropdownTitleText {
+    font-size: 13px;
+  }
+  .dropdownContent {
+    font-size: 12px;
+  }
+}

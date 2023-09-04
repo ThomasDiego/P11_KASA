@@ -6,3 +6,12 @@
   padding: 50px;
   grid-template-columns: 1fr 1fr 1fr;
 }
+
+@media screen and (max-width: 768px) {
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    background: white;
+    padding: 0px;
+  }
+}

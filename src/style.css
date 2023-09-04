@@ -3,3 +3,7 @@ body {
   font-size: 18px;
   font-family: "Montserrat";
 }
+
+* {
+  box-sizing: border-box;
+}

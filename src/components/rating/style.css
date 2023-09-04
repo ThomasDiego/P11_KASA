@@ -10,3 +10,13 @@
   height: 25px;
   background-size: cover;
 }
+
+@media screen and (max-width: 768px) {
+  .rating {
+    align-items: center;
+  }
+  .stars {
+    width: 18px;
+    height: 18px;
+  }
+}

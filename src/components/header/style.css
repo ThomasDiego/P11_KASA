@@ -21,3 +21,23 @@
 .active {
   text-decoration: underline;
 }
+
+@media screen and (max-width: 768px) {
+  .header {
+    margin-top: 0px;
+  }
+  .headerRight {
+    gap: 20px;
+  }
+  .headerRight > * {
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+  .headerLeft {
+    align-self: center;
+  }
+  .logo {
+    width: 145px;
+    height: 47px;
+  }
+}

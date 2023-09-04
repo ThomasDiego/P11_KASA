@@ -1,4 +1,4 @@
-import "./carrousel.css";
+import "./style.css";
 import ArrowLeft from "../../assets/arrow_left.svg";
 import ArrowRight from "../../assets/arrow_right.svg";
 import React, { useEffect } from "react";

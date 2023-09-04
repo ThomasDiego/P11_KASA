@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./dropdown.css";
+import "./style.css";
 import dropdownIcon from "../../assets/arrow_collapse.png";
 function Dropdown({ title, content, state }) {
   let [dropdownState, setDropdownState] = useState(state);

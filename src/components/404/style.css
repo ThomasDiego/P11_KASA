@@ -18,3 +18,20 @@
   text-decoration: underline;
   margin: 180px 0 100px 0;
 }
+
+@media screen and (max-width: 768px) {
+  .notFound {
+    text-align: center;
+    margin-top: 100px;
+  }
+  .notFoundTitle {
+    font-size: 96px;
+  }
+  .notFoundSubTitle {
+    font-size: 18px;
+  }
+  .notFoundButton {
+    font-size: 18px;
+    margin: 120px 0 100px 0;
+  }
+}

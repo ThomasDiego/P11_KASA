@@ -1,4 +1,4 @@
-import "./404.css";
+import "./style.css";
 import { NavLink } from "react-router-dom";
 function NotFound() {
   return (

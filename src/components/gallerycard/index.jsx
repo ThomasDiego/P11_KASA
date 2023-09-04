@@ -1,4 +1,4 @@
-import "./gallerycard.css";
+import "./style.css";
 import { NavLink } from "react-router-dom";
 function GalleryCard({ image, text, id }) {
   return (

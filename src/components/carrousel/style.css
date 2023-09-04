@@ -44,3 +44,17 @@
 .carrouselPictureCount {
   color: white;
 }
+
+@media screen and (max-width: 768px) {
+  .carrousel {
+    height: 255px;
+  }
+  .carrouselArrowRight {
+    width: 30px;
+    height: 30px;
+  }
+  .carrouselArrowLeft {
+    width: 30px;
+    height: 30px;
+  }
+}

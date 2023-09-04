@@ -8,4 +8,14 @@
   align-items: center;
   font-size: 48px;
   color: white;
+  background-position-y: center;
+}
+
+@media screen and (max-width: 768px) {
+  .banner {
+    font-size: 24px;
+    height: 111px;
+    justify-content: left;
+    padding: 0px 10px;
+  }
 }
