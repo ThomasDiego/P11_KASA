@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import "../styles/rating.css";
-import RedStar from "../assets/red_star.png";
-import GreyStar from "../assets/grey_star.png";
+import "./rating.css";
+import RedStar from "../../assets/red_star.png";
+import GreyStar from "../../assets/grey_star.png";
 
 function Rating({ note }) {
   let [noStars, setNoStars] = useState(5);

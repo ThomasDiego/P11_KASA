@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "../styles/host.css";
+import "./host.css";
 function Host({ name, photo }) {
   let [hostLastName, setHostLastName] = useState("");
   let [hostFirstName, setHostFirstName] = useState("");

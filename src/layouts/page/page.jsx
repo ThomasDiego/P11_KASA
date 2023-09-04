@@ -1,6 +1,6 @@
-import Header from "../components/header";
-import Footer from "../components/footer";
-import "../styles/page.css";
+import Header from "../../components/header/header";
+import Footer from "../../components/footer/footer";
+import "./page.css";
 function Page({ children }) {
   return (
     <>

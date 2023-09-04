@@ -1,6 +1,6 @@
-import "../styles/carrousel.css";
-import ArrowLeft from "../assets/arrow_left.svg";
-import ArrowRight from "../assets/arrow_right.svg";
+import "./carrousel.css";
+import ArrowLeft from "../../assets/arrow_left.svg";
+import ArrowRight from "../../assets/arrow_right.svg";
 import React, { useEffect } from "react";
 
 function Carrousel({ pictures }) {

@@ -1,6 +1,6 @@
 import { useState } from "react";
-import "../styles/dropdown.css";
-import dropdownIcon from "../assets/arrow_collapse.png";
+import "./dropdown.css";
+import dropdownIcon from "../../assets/arrow_collapse.png";
 function Dropdown({ title, content, state }) {
   let [dropdownState, setDropdownState] = useState(state);
   function toggleDropdown() {

@@ -1,4 +1,4 @@
-import "../styles/banner.css";
+import "./banner.css";
 
 function Banner({ image, text }) {
   return (
