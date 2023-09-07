@@ -45,12 +45,12 @@ function Rooms() {
           </div>
           <div className="roomDropdown">
             <Dropdown
-              state={true}
+              state={false}
               title={"Description"}
               content={roomInfos.description}
             />
             <Dropdown
-              state={true}
+              state={false}
               title={"Équipements"}
               content={roomInfos.equipments?.map((equipment, index) => {
                 return <li key={index}>{equipment}</li>;
