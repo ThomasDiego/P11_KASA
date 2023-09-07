@@ -8,10 +8,13 @@ function Carrousel({ pictures }) {
   let [pictureCount, setPictureCount] = React.useState(0);
 
   function nextPicture(value) {
+    // si la valeur est négative et que l'index est à 0, on passe à la dernière image
     if (currentPicture + value < 0) {
       setCurrentPicture(pictures.length - 1);
+      // si la valeur est positive et que l'index est à la dernière image, on passe à la première image
     } else if (currentPicture + value > pictures.length - 1) {
       setCurrentPicture(0);
+      // sinon on passe à l'image suivante
     } else {
       setCurrentPicture(currentPicture + value);
     }

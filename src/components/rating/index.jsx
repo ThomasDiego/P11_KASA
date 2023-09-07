@@ -11,6 +11,7 @@ function Rating({ note }) {
   return (
     <>
       <div className="rating">
+        {/* Ici on fait une liste d'étoiles de la longueur de la note */}
         {Array.apply(null, { length: note }).map((e, i) => (
           <div
             className="stars"
@@ -18,6 +19,7 @@ function Rating({ note }) {
             style={{ backgroundImage: `url(${RedStar})` }}
           ></div>
         ))}
+        {/* Ici on fait une liste d'étoiles grises de la longueur de 5 - la note */}
         {Array.apply(null, { length: noStars }).map((e, i) => (
           <div
             className="stars"

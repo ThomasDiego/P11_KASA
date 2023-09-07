@@ -5,7 +5,6 @@ import GalleryCard from "../../components/gallerycard";
 import { useEffect, useState } from "react";
 function Accueil() {
   const [data, setData] = useState([]);
-  //fetch /datas/logements.json
   useEffect(() => {
     fetch("/datas/logements.json")
       .then((response) => response.json())

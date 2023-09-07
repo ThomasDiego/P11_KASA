@@ -3,6 +3,8 @@ import "./style.css";
 import dropdownIcon from "../../assets/arrow_collapse.png";
 function Dropdown({ title, content, state }) {
   let [dropdownState, setDropdownState] = useState(state);
+
+  //Ici on inverse l'état du dropdown
   function toggleDropdown() {
     setDropdownState(!dropdownState);
   }
