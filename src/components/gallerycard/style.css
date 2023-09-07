@@ -12,7 +12,6 @@
 @media screen and (max-width: 768px) {
   .galleryCard {
     aspect-ratio: auto;
-    max-width: 330px;
     width: 100%;
     max-height: 938px;
     height: 255px;
